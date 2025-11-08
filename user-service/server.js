@@ -1,6 +1,7 @@
 // user-service/server.js
 import express from 'express'
-import dotenv from 'dotenv'
+import dotenv from 'dotenv'import connectDB from './config/db.js'
+import userRoutes from './routes/userRoutes.js'
 
 // Load .env variables
 dotenv.config()
